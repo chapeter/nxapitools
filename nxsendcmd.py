@@ -40,7 +40,7 @@ myheaders={'content-type':'application/json'}
 
 
 for x in devicelist['lab']:
-    #print(devicelist['lab'][x]['hostname'])
+    #Build Request
     hostname = devicelist['lab'][x]['hostname']
     ip = devicelist['lab'][x]['ip']
     username = devicelist['lab'][x]['user']
