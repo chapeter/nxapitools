@@ -21,3 +21,13 @@ optional arguments:
   -l LAB, --lab LAB     Lab File
 ```
 
+Example
+```
+ chapeter$ nxsendcmd.py -l ~/lab/vxlan.cfg -c "feature udld ; feature bash-shell"
+kcdc-spine-1 : feature udld    : Success
+kcdc-spine-1 :  feature bash-shell : Success
+kcdc-leaf-2  : feature udld    : Success
+kcdc-leaf-2  :  feature bash-shell : Success
+kcdc-leaf-1  : feature udld    : Success
+kcdc-leaf-1  :  feature bash-shell : Success
+```
