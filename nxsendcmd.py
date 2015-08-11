@@ -68,7 +68,7 @@ for x in devicelist['lab']:
             body = response['ins_api']['outputs']['output']['clierror']
         if type == "cli_show":
             print(body)
-        if cmd == "cli_conf":
+        if type == "cli_conf":
             print('{0:12} {1:1} {2:7}'.format(hostname, ":", msg))
         else:
             print("!===Printing Output from %s===!" % hostname)
